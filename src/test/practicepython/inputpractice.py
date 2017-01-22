@@ -15,5 +15,9 @@ number=int(number)
 now = datetime.datetime.now()
 currYr = now.year
 diff = 100-int(age)
+'''
 for i in range(number):
     print(name +" will turn 100 in the year "+str(currYr+diff))
+'''
+
+print(number * (name +" will turn 100 in the year "+str(currYr+diff) +"\n"))
